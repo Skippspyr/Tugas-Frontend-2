@@ -1,0 +1,20 @@
+.topbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  justify-content: end;
+  z-index: 99;
+
+  &__wishlist {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-size: 1.25rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
